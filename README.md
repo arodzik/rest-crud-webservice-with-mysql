@@ -27,14 +27,14 @@ There are two ways to set up database for purposes of this assignment:
   * Install MySQL Server on your machine
   * Open your MySQL access client
   * Run `database_setup_script.sql` on your client
-  * In `application.properties` file in project put credentials:
+  * Configure database connector in `application.properties` by inserting:
     - host: localhost:3306/wladymir_new_db
     - username: root
     - password: root
    
 
 2. Connect to previously prepared database hosted online:
-  * Put these credentials in `application.properties` file in project
+  * Configure database connector in `application.properties` by inserting:
     - host: f5.host-ed.me:3306/wladymir_new_db
     - username: wladymir_me
     - password: qwerty1236635522
