@@ -18,20 +18,49 @@ These instructions will get you a copy of the project up and running on your loc
 There are two ways to set up database for purposes of this assignment:
 
 1. Create your own DB basing on attached script:
+  * Install MySQL Server on your machine
   * Open your MySQL access client
   * Run `database_setup_script.sql` on your client
   * In `application.properties` file put:
-  
+    - host: localhost:3306/wladymir_new_db
+    - username: root
+    - password: root
    
 
-
 2. Connect to previously prepared database hosted online:
-  Put these credentials in `application.properties` file
+  * Put these credentials in `application.properties` file
+  - host: 
+  - username: wladymir_me
+  - password: qwerty1236635522
   
-  * Host:
-  * Username: 
-  * Password: 
   
+  Example of `application.properties` file:
+  
+  ```
+# Automatically update the database
+spring.jpa.hibernate.ddl-auto=update
+
+# The database connection URL
+spring.datasource.url=jdbc:mysql://localhost:3306/wladymir_new_db?useSSL=false
+
+# Username
+spring.datasource.username=root
+
+# Password
+spring.datasource.password=root
+
+# Define the database platform
+spring.jpa.database-platform=org.hibernate.dialect.MySQLMyISAMDialect
+
+# Define the naming strategy
+spring.jpa.hibernate.naming-strategy=org.hibernate.cfg.ImprovedNamingStrategy
+
+hibernate.dialect.storage_engine=MyISAM
+
+# Define the default schema
+spring.jpa.properties.hibernate.default_schema=schema
+
+```
  
 
 
