@@ -29,9 +29,9 @@ There are two ways to set up database for purposes of this assignment:
 
 2. Connect to previously prepared database hosted online:
   * Put these credentials in `application.properties` file
-  - host: 
-  - username: wladymir_me
-  - password: qwerty1236635522
+    - host: f5.host-ed.me:3306/wladymir_new_db
+    - username: wladymir_me
+    - password: qwerty1236635522
   
   
   Example of `application.properties` file:
@@ -62,6 +62,7 @@ spring.jpa.properties.hibernate.default_schema=schema
 
 ```
  
+## Running the project
 
 
 
