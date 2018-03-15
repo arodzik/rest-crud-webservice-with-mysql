@@ -6,21 +6,18 @@ RESTful API webservice responsible formanaging and storing in database simple no
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
+### Components
+
+* `README.md`- instruction
+* `mysqlrestservice1` - catalog with project
+* `database_setup_script.sql` - script for setting up database
+
 ### Prerequisites
 
 * Any Java IDE with Apache Maven support. (Created with IntelliJ IDEA)
 * MySQL 5.x
 * PhpMyAdmin or any other clients to access MySQL database
 * Postman or any other REST Clients
-
-### Ingridients
-
-*
-*
-*
-*
-*
-
 
 ### Database setup
 
