@@ -19,14 +19,14 @@ There are two ways to set up database for purposes of this assignment:
 
 1. Create your own DB basing on attached script:
   * Open your MySQL access client
-  * Run 'database_setup_script.sql' on your client
-  * In 'application.properties' file put:
+  * Run `database_setup_script.sql` on your client
+  * In `application.properties` file put:
   
    
 
 
 2. Connect to previously prepared database hosted online:
-  Put these credentials in 'application.properties' file
+  Put these credentials in `application.properties` file
   
   * Host:
   * Username: 
